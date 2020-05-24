@@ -1,0 +1,83 @@
+.pdiv-main h1 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.pdiv-main h1>span {
+    font-weight: bold;
+    color: blue;
+    text-transform: uppercase;
+    border-bottom: 3px solid blue;
+    padding-bottom: 5px;
+}
+
+.pdiv-vices {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pdiv-vice {
+    border-radius: 20px;
+    padding: 0px 30px;
+    background-color: rgb(36, 206, 178);
+    box-shadow: 0px 0px 10px 5px rgb(195, 211, 208);
+    width: 25%;
+}
+
+.pdiv-vice h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pdiv-vice h2>span {
+    color: brown;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed brown;
+}
+
+h3 {
+    border: 1px solid white;
+    line-height: 30px;
+    padding-left: 5px;
+}
+
+h3>span {
+    color: white;
+    text-transform: uppercase;
+}
+
+.teams {
+    padding: 0px 20px;
+}
+
+h4 {
+    border: 1px solid black;
+    line-height: 30px;
+    padding-left: 5px;
+}
+
+h4>span {
+    text-transform: uppercase;
+}
+
+ul li {
+    line-height: 30px;
+    padding-left: 5px;
+    border: 1px solid black;
+    margin: 5px 0px;
+}
+[data-draggable="softwareTarget"] {
+    display: block;
+    list-style-type: none;
+
+    margin: 0 0 2px 0;
+    padding: 0.2em 0.4em;
+
+    border-radius: 0.2em;
+
+    line-height: 1.3;
+}
+
+/*  var chnageid = "changeid"+Math.round(Math.random() * 1000);
+            e.target.setAttribute("id", chnageid)
+            console.log(chnageid); */
